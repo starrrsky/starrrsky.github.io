@@ -74,6 +74,10 @@ body {
 .store-icon path {
   background-color: #87ceeb;
   fill: #87ceeb;
+  margin-bottom: 4px;
+}
+.store-icon {
+  margin-bottom: 4px;
 }
 .replaced-svg {
   width: 32px;
@@ -96,6 +100,9 @@ body {
 }
 .form-group {
   padding: 0 12px;
+}
+.foot {
+  background-color: #111122;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
