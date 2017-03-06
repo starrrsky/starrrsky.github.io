@@ -14,34 +14,56 @@
  * }
 */
 
-body {
-  background: url('gridBG.jpg') no-repeat center center fixed;
-  background-size: cover;
+body  {
+
+  background : url('gridBG.jpg') no-repeat center center fixed;
+
+  background-size : cover;
+
 }
 
-.title {
-  padding: 10% 0 16px 0 !important;
-  height: 100%;
-  min-height: 800px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: space-between;
+.title  {
+
+  padding : 10% 0 16px 0 !important;
+
+  height : 100%;
+
+  min-height : 800px;
+
+  display : flex;
+
+  flex-direction : column;
+
+  align-content : center;
+
+  justify-content : space-between;
+
 }
 
-.gradient {
-  background: linear-gradient(to bottom, rgba(17, 17, 34, 0) 0%, rgba(17, 17, 34, 0) 68%, rgba(17, 17, 34, 1) 100%);
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  padding-bottom: 16px;
+.gradient  {
+
+  background : linear-gradient(to bottom, rgba(17, 17, 34, 0) 0%, rgba(17, 17, 34, 0) 68%, rgba(17, 17, 34, 1) 100%);
+
+  z-index : 1;
+
+  width : 100%;
+
+  height : 100%;
+
+  position : absolute;
+
+  top : 0;
+
+  padding-bottom : 16px;
+
 }
 
-.title img {
-  align-self: center;
-  animation: sinebob 2s ease-in-out alternate infinite;
+.title img  {
+
+  align-self : center;
+
+  animation : sinebob 2s ease-in-out alternate infinite;
+
 }
 
 @keyframes sinebob {
@@ -53,75 +75,166 @@ body {
   }
 }
 
-.console {
-  background: rgba(20, 20, 40, .8);
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
+.console  {
+
+  background : rgba(20, 20, 40, .8);
+
+  margin-bottom : -99999px;
+
+  padding-bottom : 99999px;
+
 }
 
-.console-navbar {
-  background: rgba(10, 10, 20, 1);
-  height: 12px;
-  color: #1b789d;
-  text-align: right;
-  vertical-align: middle;
-  line-height: 12px;
-  font-size: .8em;
+.console-navbar  {
+
+  background : rgba(10, 10, 20, 1);
+
+  height : 12px;
+
+  color : #1b789d;
+
+  text-align : right;
+
+  vertical-align : middle;
+
+  line-height : 12px;
+
+  font-size : .8em;
+
 }
 
-.console-text {
-  font-size: 24px;
-  ffont-family: 'Anonymous Pro', monospace;
-  padding-top: 8px;
+.console-text  {
+
+  font-size : 24px;
+
+  ffont-family : 'Anonymous Pro', monospace;
+
+  padding-top : 8px;
+
 }
 
-.email-signup {
-  padding-top: 8px;
+.email-signup  {
+
+  padding-top : 8px;
+
 }
 
-.screenshots img {
-  padding: 15px 0;
+.screenshots img  {
+
+  padding : 15px 0;
+
 }
 
-.store-icon path {
-  background-color: #87ceeb;
-  fill: #87ceeb;
-  margin-bottom: 4px;
+.store-icon path  {
+
+  background-color : #87ceeb;
+
+  fill : #87ceeb;
+
+  margin-bottom : 4px;
+
 }
 
-.store-icon {
-  margin-bottom: 4px;
+.store-icon  {
+
+  margin-bottom : 4px;
+
 }
 
-.replaced-svg {
-  width: 32px;
+.replaced-svg  {
+
+  width : 32px;
+
 }
 
-.store-button-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+.store-button-container  {
+
+  display : flex;
+
+  flex-wrap : wrap;
+
+  justify-content : center;
+
 }
 
-.store-button {
-  background: rgba(17, 17, 34, .8);
-  border: 2px solid;
-  border-radius: 8px;
-  padding: 8px 0;
-  width: 150px;
-  margin: 16px;
+.store-link  {
+
+  display : block;
+
+  text-decoration : none;
+
+  color : #87ceeb;
+
+}
+
+.store-link:hover  {
+
+  text-decoration : none;
+
+  color : #87ceeb;
+
+}
+
+.store-button  {
+
+  background : rgba(17, 17, 34, .8);
+
+  border : 2px solid;
+
+  border-radius : 8px;
+
+  padding : 8px 0;
+
+  width : 150px;
+
+  margin : 16px;
+
+  pointer-events : none
 }
 
 .row {
   overflow: hidden;
+
 }
 
-.form-group {
-  padding: 0 12px;
+.form-group  {
+
+  padding : 0 12px;
+
 }
 
-.foot {
-  background-color: rgba(17, 17, 34, 1);
+.foot  {
+
+  background-color : rgba(17, 17, 34, 1);
+
+  margin-top : 40px;
+
+  color : #fff;
+
+  padding : 0 !important;
+
+}
+
+.logos  {
+
+  top : -64px;
+
+  z-index : 999;
+
+}
+
+.logos img  {
+
+  margin : 0 auto;
+
+  display : block;
+
+}
+
+.logos hr  {
+
+  width : 60%;
+
 }
 
 //
@@ -899,12 +1012,18 @@ monospace;
 
 /* PINGENDO COMMENT DO NOT REMOVE */
 
-.blink {
-  -webkit-animation: blink .75s linear infinite;
-  -moz-animation: blink .75s linear infinite;
-  -ms-animation: blink .75s linear infinite;
-  -o-animation: blink .75s linear infinite;
-  animation: blink .75s linear infinite;
+.blink  {
+
+  -webkit-animation : blink .75s linear infinite;
+
+  -moz-animation : blink .75s linear infinite;
+
+  -ms-animation : blink .75s linear infinite;
+
+  -o-animation : blink .75s linear infinite;
+
+  animation : blink .75s linear infinite;
+
 }
 
 @-webkit-keyframes blink {
