@@ -17,7 +17,7 @@ body {
   background-size: cover;
 }
 .title {
-  padding: 10% 0 16px 0 !important;
+  padding: 150px 0 16px 0 !important;
   height: 100%;
   min-height: 800px;
   display: flex;
@@ -25,14 +25,8 @@ body {
   align-content: center;
   justify-content: space-between;
 }
-.gradient {
-  background: linear-gradient(to bottom, rgba(17, 17, 34, 0) 0%, rgba(17, 17, 34, 0) 68%, #111122 100%);
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  padding-bottom: 16px;
+.title .row {
+  margin-bottom: 16px;
 }
 .title img {
   align-self: center;
@@ -104,6 +98,7 @@ body {
   width: 150px;
   margin: 16px;
   pointer-events: none;
+  box-shadow: 0px 3px 0px 1px;
 }
 .row {
   overflow: hidden;
