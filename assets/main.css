@@ -19,7 +19,7 @@ body {
 .title {
   padding: 150px 0 16px 0 !important;
   height: 100%;
-  min-height: 800px;
+  min-height: 950px;
   display: flex;
   flex-direction: column;
   align-content: center;
